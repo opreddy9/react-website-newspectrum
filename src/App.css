@@ -1,0 +1,156 @@
+.indexbody {
+  background-image: url("Back.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+.brand {
+  font-size: 128px;
+  color: white;
+}
+.quote {
+  color: white;
+  font-size: 22px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/*enterprenuer dashboard*/
+.EDmain {
+  margin-top: 5rem;
+}
+.Edimg {
+  width: 100%;
+  height: 80vh;
+  border-radius: 12px;
+}
+/*enterprenuer home*/
+.EHmain {
+  margin-top: 5rem;
+}
+.EHimg {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  width: 100%;
+  height: 100%;
+}
+.proj-tab {
+  border-radius: 12px;
+  box-shadow: 5px 10px 8px 10px #888888;
+  margin-bottom: 10rem;
+}
+.prj-des {
+  font-size: 20px;
+}
+.prb-sta {
+  font-size: 18px;
+}
+.des {
+  margin-bottom: 0;
+  font-size: 20px;
+  color: grey;
+}
+/*responses*/
+.resop {
+  box-shadow: 2px 2px 4px 4px #bbb;
+  border-radius: 12px;
+}
+/*see responses*/
+.seeresp {
+  line-height: 1.7;
+}
+.seeresop {
+  border-radius: 2%;
+  box-shadow: 2px 2px 4px 4px #bbb;
+}
+/*student dashboard*/
+.sdop {
+  height: 100%;
+  width: 100%;
+  border-radius: 5%;
+}
+/*student details*/
+.india {
+  border-radius: 2%;
+  box-shadow: 2px 2px 4px 4px #bbb;
+}
+.op00 {
+  box-shadow: 2px 2px 4px 4px #bbb;
+  border-radius: 12px;
+}
+.op01 {
+  text-align: center;
+}
+.op02 {
+  line-height: 40px;
+}
+.opli {
+  margin-bottom: 20px;
+}
+.opvideo {
+  height: auto;
+  width: 50%;
+}
+.sdimg {
+  height: auto;
+  width: 50%;
+  border-radius: 5%;
+}
+.top-buffer {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.op {
+  line-height: 30px;
+}
+/*view more project*/
+.viewopli {
+  margin-bottom: 20px;
+}
+.viewopvideo {
+  height: auto;
+  width: 50%;
+}
+.viewimg {
+  height: auto;
+  width: 50%;
+  border-radius: 5%;
+}
+.viewtop-buffer {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.viewop {
+  font-size: 25px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
